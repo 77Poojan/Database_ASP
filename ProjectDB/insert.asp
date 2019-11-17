@@ -17,7 +17,7 @@
 	
 	set conn = Server.CreateObject("ADODB.Connection")
 	conn.Mode = adModeReadWrite
-	conn.ConnectionString = "Provider=MSOLEDBSQL; Server=.\SQLEXPRESS; Database=MBMDB2; User Id=PujanDB; Password=PJN;"
+	conn.ConnectionString = "Provider=MSOLEDBSQL; Server=.\SQLEXPRESS; Database= ; User Id= ; Password= ;"
 	conn.open
 
 	set sql = Server.CreateObject("ADODB.recordset")
